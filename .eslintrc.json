@@ -1,0 +1,17 @@
+{
+  "extends": ["next", "prettier"],
+  "rules": {
+    "no-console": "warn",
+    "no-debugger": "warn",
+    "comma-dangle": ["warn", "always-multiline"],
+    "indent": ["warn", 2, { "SwitchCase": 1 }],
+    "quotes": ["warn", "double"],
+    "jsx-quotes": ["warn", "prefer-double"],
+    "max-len": [
+      "warn",
+      {
+        "code": 120
+      }
+    ]
+  }
+}
